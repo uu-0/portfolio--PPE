@@ -1,15 +1,142 @@
-<!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
--->
 <html>
     <head>
-        <title>TODO supply a title</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="keywords" content="cv, reseau, programmation, portefolio, louise, popczyk, louise popczyk, bts, sio, slam,system, systeme,réseau, portfolio,portfolio bts, portfolio bts sio,portfolio bts sio sisr,portfolio bts sio slam,portfolio, bts, brevet, de, technicien, supérieur, services, informatiques, aux, organisations, 2018,2019,2020,2021,2022, arras, guy, mollet, baudimont, lycée, bts sio, sio, option, slam, solutions logicielles et applications métiers,solutions d'infrastructure, systèmes et réseaux, réseaux, réseau, system, système, systèmes, network, logiciels, applications, développement, web, e6, portefeuille, compétences, administrateur, développeur, développeuse, création, site">
+        <meta name="author" content="POPCZYK Louise">
+        <meta name="description" content="Acceuil de mon portfolio, Louise POPCZYK BTSSIO SLAM">
+        <!--vue mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <!--
+        ========================================================================
+        Author          : POPCZYK Louise
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Copyright (c) 2022 - POPCZYK Louise
+        ========================================================================
+        -->
+        <!-- CSS -->
+        <link href="css/stylesheet.css" rel="stylesheet">
+        <!--logo-->
+        <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+        <!--police-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+        
+        <title>Accueil - Portfolio</title>
     </head>
+     <!--début en-tête-->
+    <header>
+        <!--début barre nav-->
+        <nav id="nav">
+        <ul class="navbar">
+            <li><a href="#acceuil">Accueil</a></li>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#projet">Projet</a></li>
+            <li><a href="ppe1.html">PPE 1</a></li>
+            <li><a href="ppe2.html">PPE 2</a></li>
+          </ul> 
+        </nav>  
+        <!--fin barre nav-->
+    </header>
+     
+     <!-- début body-->
     <body>
-        <div>TODO write content</div>
+        <!--index-->
+        <div class="bacceuil" id="acceuil">
+            <h1>Bonjour,</h1>
+            <h2>Je m'appelle Louise Popczyk</h2>
+            <h3><span>✿</span>  développeuse web junior  <span>✿</span></h3>
+        </div>
+        <!-- fin index-->
+        
+        <!--profil-->
+        <div class='fond'>
+            <div class="bprofil" id="profil">
+                <br><br><br><br>
+                <h1 class="div">À PROPOS</h1><br>
+                <div class='intro'>
+                <span>✿✿</span>
+                <p class="pintro">Je m'appelle Louise Popczyk et suis étudiante en BTS SIO (Services Informatiques
+                            aux Organisations) option SLAM (Solutions Informatiques et Applications Métiers). J'ai choisi de suivre le BTS SIO à distance grâce au Centre National
+                            d'Enseignement à Distance (CNED) car je souhaitais pourvoir avancer
+                            à mon rythme, apprendre à être autonome ainsi que devenir plus responsable en étant capable de me
+                            fixer moi même des contraintes et objectifs. Je perfectionne également mes compétences grâce à FreeCodeCamp ou CrunchZilla.</p>
+                <span>✿✿</span>
+                </div>       
+            </div>
+            <!--partie contact-->
+            <div class="contact">
+                <article class="artd">
+                    <h2 class="div">CONTACT</h2>
+                    <h2 class="div2">EMAIL</h2>
+                    <p class="pintro">popczyk.louise@gmail.com</p>
+                    <h2 class="div2">LOCALISATION</h2>
+                    <a class="lienarras" href="https://www.google.com/maps/d/u/0/viewer?hl=en&mpa=0&ctz=0&mpf=0&ie=UTF8&msa=0&t=h&vpsrc=0&ll=50.28731155004464%2C2.786133837638438&spn=0.006855%2C0.021136&z=12&source=embed&mid=1ljWhWSLcfb18BhcLGPks8iPEtQU">
+                        Arras (62)
+                    </a>
+            </article>  
+            <article class="artg">
+                <h2 class="div">COMPÉTENCES</h2>
+                <p class="pskill">HTML</p>
+                <div class="container">
+                    <div class="skill html"><span class="skillbar">90%</span></div>
+                </div>
+                <p class="pskill">CSS</p>
+                <div class="container">
+                    <div class="skill css"><span class="skillbar">90%</span></div>
+                </div>
+                <p class="pskill">JavaScript</p>
+                <div class="container">
+                    <div class="skill java"><span class="skillbar">70%</span></div>
+                </div>
+                <p class="pskill">JS</p>
+                <div class="container">
+                    <div class="skill js"><span class="skillbar">70%</span></div>
+                </div>
+                <p class="pskill">C#</p>
+                <div class="container">
+                    <div class="skill cc"><span class="skillbar">80%</span></div>
+                </div>
+                <p class="pskill">Python</p>
+                <div class="container">
+                    <div class="skill py"><span class="skillbar">80%</span></div>
+                </div>
+            </article>
+            </div>
+            <!--bouton contact-->
+            <form action="https://github.com/uu-0">
+                <button id="imggit" ></button> 
+            </form>
+            <form action="ressources/CV- POPCZYK Louise.pdf">
+                <button id="CV" ></button> 
+            </form>
+            <form action="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzDfllNsGhTpFhXqGHQhPhPTkrSXxmWbxLfHpVlxRFQJCMfLQxtwcDcFwbgGfWMZskwpHXx">
+                <button id="mail" ></button> 
+            </form>
+            <form action="https://www.linkedin.com/in/louise-p-84691a221/">
+                <button id="lk" ></button> 
+            </form>
+            <!-- fin profil-->
+            <br><br><br><br><br><br>
+            <!--projet-->
+            <!--à remplacer par img des sites-->
+            <div class="bprojet" id="projet">
+                <h1 class="div">PORTFOLIO</h1>
+                <span>✿✿</span>
+                <p class='pintro'> Voici certains travaux que j'ai réalisé dans le cadre de ma formation en BTS SIO, ou lors de mon temps libre.</p>
+                <span>✿✿</span>
+            </div>
+            <form action="PPE1.html">
+                <button id="imgmediatek" ></button> 
+            </form>
+        </div>
+        <!--pied de page-->
+        <p class="foot">© Copyright 2022 by POPCZYK Louise</p> 
+        <!-- fin projet--> 
     </body>
+    
+            
+    
 </html>
