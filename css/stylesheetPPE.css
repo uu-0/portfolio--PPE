@@ -1,0 +1,206 @@
+/* 
+    Created on : 31 mai 2022, 01:00:57
+    Author     : louise
+*/
+
+/*barre de navigation*/
+#nav {
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    list-style: none;
+    background-color: transparent;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    
+}
+#nav li {
+    display:inline-block;
+}
+#nav li a {
+    display: block;
+    /*taille des cases genre acceuil*/
+    padding: 10px 90px;
+    /* couleur des barres qui séparent*/
+    /*pr texte*/
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+/* change la couleur de la case sur laquelle on est*/
+#nav li a:hover {
+    color: white;
+    background-color: #c8045c;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+/*fin barre de navigation*/
+
+/*background*/
+body{
+    background-image: url(img/css.png);
+    background-position: top;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+/*fin background*/
+
+/*body*/
+
+/*acceuil*/
+div.fond{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 480px;
+    background-color: white;
+    height: 2000px;
+    width: 1400px;
+    border-radius: 100px;
+    font-family: 'PT Sans', sans-serif;
+}
+div.bacceuil{
+    margin-top: 270px;
+    text-align: center;
+}
+h2{
+    color: #c8045c;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 80px;
+    letter-spacing : 7px;
+}
+h3.titre{
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing : 5px;
+    font-size: 30px;
+}
+h3{
+    color: grey;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing : 5px;
+    font-size: 30px;
+}
+span{
+    color: #c8045c;
+    font-family: 'PT Sans', sans-serif;
+}
+/*fin acceuil*/
+    
+/*présentation du projet*/
+h1.div{
+    color: #c8045c;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+} 
+div.pres{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: 300px;
+    text-align: center;
+ 
+}
+div.intro{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+p.pintro{
+    text-align: justify;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.7em;
+    color: #616160;
+    font-size: 20px;
+}
+/*img*/
+div.infotech{
+position: absolute;
+width : 150px; 
+height : 140px;
+border-radius: 25% 10%;
+margin-top: 400px;
+float: left; 
+margin-left: 100px;
+background-image:url(img/infotech.png); 
+background-size: 150px 140px;
+}
+
+div.media{
+position: absolute;
+width : 150px; 
+height : 140px;
+border-radius: 25% 10%;
+margin-top: 380px;
+margin-left: 1125px;
+float: left; 
+background-image:url(img/mediatekinfo.png); 
+background-size: 150px 140px;
+}
+/*fin img*/
+
+
+/*btn*/
+#btngitmt{
+position: absolute;
+margin-left: 550px;
+margin-top: 1490px;
+background-image:url(img/repository.png);
+background-color: transparent;
+border-color: transparent;
+background-size: 60px 60px;
+background-repeat: no-repeat;
+width: 65px;
+height: 65px; 
+
+}
+
+#btncompterendu{
+position: absolute;
+margin-left: 800px;
+margin-top: 1475px;
+background-image:url(img/compter.png);
+background-color: transparent;
+border-color: transparent;
+background-size: 60px 60px;
+background-repeat: no-repeat;
+width: 65px;
+height: 65px; 
+}
+
+#btngitmt:hover{
+background-image:url(img/repositoryhover.png);
+}
+#btncompterendu:hover{
+background-image:url(img/compterhover.png);
+}
+
+P.txtgit{
+font-family: 'PT Sans', sans-serif;
+position: absolute;
+margin-top: 1550px;
+margin-left: 520px;
+size: 25px;
+}
+P.txtcompte{
+font-family: 'PT Sans', sans-serif;
+position: absolute;
+margin-top: 1550px;
+margin-left: 785px;
+size: 30px;
+}
+/*fin btn*/
+/*pied de page*/
+ p.foot{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+ }
