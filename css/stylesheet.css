@@ -1,0 +1,313 @@
+/* 
+    Created on : 30 mai 2022, 16:39:15
+    Author     : louise
+*/
+
+/*barre de navigation*/
+#nav {
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    list-style: none;
+    background-color: transparent;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    
+}
+#nav li {
+    display:inline-block;
+}
+#nav li a {
+    display: block;
+    /*taille des cases genre acceuil*/
+    padding: 10px 90px;
+    /* couleur des barres qui séparent*/
+    /*pr texte*/
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+/* change la couleur de la case sur laquelle on est*/
+#nav li a:hover {
+    color: white;
+    background-color: #c8045c;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+/*fin barre de navigation*/
+
+/*background*/
+body{
+    background-image: url(img/css.png);
+    background-position: top;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+/*fin background*/
+
+/*body*/
+/*index*/
+div.fond{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 480px;
+    background-color: white;
+    height: 3000px;
+    width: 1400px;
+    border-radius: 100px;
+}
+div.bacceuil{
+    margin-top: 270px;
+    text-align: center;
+}
+span{
+    color: #c8045c;
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1{
+    color: #c8045c;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+h2{
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 80px;
+}
+h3{
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing : 5px;
+}
+/*fin index*/
+    
+/*texte profil*/
+p.pintro{
+    text-align: justify;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.7em;
+    color: #616160;
+    font-size: 20px;
+} 
+
+div.intro{
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+/*fin texte intro*/
+div.bprofil{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: 300px;
+    text-align: center;
+    
+}
+/*contact et compétences*/   
+div.contact{
+      margin-top: 250px;    
+    }
+article.artd{
+  float:right;
+  margin-right: 300px;  
+  margin-top: 50px;
+}
+h1.div{
+    color: #c8045c;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+}
+h2.div{
+    color: #313131;
+    text-align: left;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+}
+h2.div2{
+    color: #313131;
+    text-align: left;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    margin-left: 0px;
+}
+
+a.lienarras{
+ text-decoration:none; 
+ color: #616160;
+ font-family: 'PT Sans', sans-serif;
+ font-size: 20px;
+}
+a.lienarras:visited{
+ text-decoration:none; 
+ color: #c8045c;
+}
+a.lienarras:hover{
+ text-decoration:none; 
+ color: #313131;
+}
+
+#imggit{
+    position: absolute;
+    background-image:url(img/github.png);
+    background-color: transparent;
+    border-color: transparent;
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 65px;
+    margin-top: 348px;
+    margin-left: 340px;
+}
+#CV{
+    position: absolute;
+    background-image:url(img/cv.png);
+    background-color: transparent;
+    border-color: transparent;
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 65px; 
+    margin-top: 348px;
+    margin-left: 270px;
+}
+
+#mail{
+    position: absolute;
+    background-image:url(img/mail.png);
+    background-color: transparent;
+    border-color: transparent;
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 65px; 
+    margin-top: 350px;
+    margin-left: 510px;
+}
+#lk{
+    position: absolute;
+    background-image:url(img/lk.png);
+    background-color: transparent;
+    border-color: transparent;
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 65px; 
+    margin-top: 348px;
+    margin-left: 420px;
+}
+
+#imggit:hover{
+    background-image:url(img/githubhover.png); 
+    content:"Mon profil github";
+}
+
+#CV:hover{
+    background-image:url(img/cvhover.png);  
+}
+#mail:hover{
+    background-image:url(img/mailhover.png);  
+}
+#lk:hover{
+    background-image:url(img/lkhover.png);  
+}
+/*fin contact*/
+/*skill bar*/
+article.artg{
+  float: left;  
+  margin-left: 250px;
+  margin-top: 50px;
+}
+.container {
+background-color: #d1d1d1;
+width: 350px;
+height: 13px;
+}
+.skill {
+background-color: #313131;
+color: white;
+padding: 1px;
+text-align: right;
+font-size: 10px;
+font-family: 'PT Sans', sans-serif;
+height: 11px;
+}
+p.pskill{
+    color: #313131;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+}
+span.skillbar{
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+.html {
+    width: 90%;
+}  
+.css {
+    width: 90%;
+}
+.java {
+    width: 70%;
+}
+.cc {
+    width: 80%;
+}
+.js {
+    width: 70%;
+}
+.py {
+    width: 80%;
+}
+    
+/*fin skill bar*/
+/*fin profil*/
+    
+/*projet*/
+div.bprojet{
+    margin-left: auto;
+    margin-right: auto;
+    height: 00px;
+    width: 500px;
+    text-align: center;
+    margin-top:500px;
+ 
+}
+
+#imgmediatek{
+width : 420px; 
+height : 300px;
+border-radius: 25% 10%;
+margin-top: 300px;
+margin-left: 250px;
+float: left; 
+background-image:url(img/mediatek86.png); 
+background-size: 420px 300px;
+}
+         
+#imgmediatek:hover{
+background-image: url('img/mediatekover.png');
+border-color: #c8045c;
+}
+ /*fin projet*/
+
+ /*pied de page*/
+ p.foot{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+ }
